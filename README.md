@@ -1,2 +1,2 @@
-# CS445-Lab
-Add lab 1
+# CS445-Lab solutions
+lab 1

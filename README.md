@@ -1,3 +1,3 @@
 # CS445-Lab solutions
-lab 1
-lab 2
+1.[lab 1](https://github.com/fikerte-b/CS445-Lab/blob/main/Lab1%20Solutions.pdf)
+2.lab 2

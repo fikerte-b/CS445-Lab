@@ -12,6 +12,7 @@ class Subject{
         this.observers[event] = [fn];
       }
 
+      
     emit(event, message){
       if(this.observers[event]){
           this.observers[event].forEach(element => {

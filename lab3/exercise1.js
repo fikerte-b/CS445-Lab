@@ -1,5 +1,6 @@
 let shoppingCart = (function(){
     let basket = [];
+    
     return{
         upsertItem: function(item){
           if (!basket.includes(item)){

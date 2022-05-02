@@ -1,21 +1,21 @@
 class Subject{
-    Constructor(){
+    constructor(){
         this.observers = {};
     }
-    on(event, fn){
-     let arryFn = [];
+    on(event, fn) {
+        for (let key in this.observers) {
+          if (key === event) {
+            this.observers[key].push(fn);
+            return;
+          }
+        }
+        this.observers[event] = [fn];
+      }
 
-     if(this.observers[event]){
-        arryFn.push(fn);
-        this.observers[event] = arryFn;
-     }else{
-         this.observers = {event: arryFn.push(fn)};
-     }
-    }
     emit(event, message){
       if(this.observers[event]){
           this.observers[event].forEach(element => {
-            element.foo(message); 
+            element(message); 
           });
 
        }

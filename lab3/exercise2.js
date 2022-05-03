@@ -11,6 +11,7 @@ class Subject{
         }
         this.observers[event] = [fn];
       }
+   
 
       
     emit(event, message){

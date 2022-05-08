@@ -3,6 +3,7 @@
 2. [lab 2](https://github.com/fikerte-b/CS445-Lab/tree/main/lab2)
 3. [lab 3](https://github.com/fikerte-b/CS445-Lab/tree/main/lab3)
 4. [lab 4](https://github.com/fikerte-b/CS445-Lab/tree/main/lab4)
+5. [lab 5](https://github.com/fikerte-b/CS445-Lab/tree/main/lab5)
 
 
 

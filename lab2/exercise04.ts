@@ -7,6 +7,7 @@ let baseObject:{
 	length: 0 
 }; 
 
+
 let rectangle: typeof baseObject = Object.create(baseObject); 
 
 rectangle.width = 5; 

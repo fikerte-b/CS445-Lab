@@ -7,14 +7,17 @@ let button = document.getElementsByClassName("btn")[0];
 button.onclick = oprations;
 function oprations(){
     if(opt.value === "+"){
-    result.value = Number(first.value) + Number(second.value)};
-    if (opt.value === "-"){
-    result.value = Number(first.value) - Number(second.value)};
-    if (opt.value === "*"){
-    result.value = Number(first.value) * Number(second.value)};
-    if (opt.value === "/"){
-    result.value = Number(first.value) / Number(second.value)};
-    if (opt.value === "%"){
-    result.value = Number(first.value) % Number(second.value)};
+    result.value = Number(first.value) + Number(second.value);}
+    else if (opt.value === "-"){
+    result.value = Number(first.value) - Number(second.value);}
+    else if (opt.value === "*"){
+    result.value = Number(first.value) * Number(second.value);}
+    else if (opt.value === "/"){
+    result.value = Number(first.value) / Number(second.value);}
+    else if (opt.value === "%"){
+    result.value = Number(first.value) % Number(second.value);}
+    else{
+        alert ("please insert +,-,×,/,%");
+    }
 }
 }

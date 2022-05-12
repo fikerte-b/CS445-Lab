@@ -5,6 +5,7 @@
 4. [lab 4](https://github.com/fikerte-b/CS445-Lab/tree/main/lab4)
 5. [lab 5](https://github.com/fikerte-b/CS445-Lab/tree/main/lab5)
 7. [lab 7](https://github.com/fikerte-b/CS445-Lab/tree/main/lab7)
+8. [lab 8](https://github.com/fikerte-b/CS445-Lab/tree/main/lab8)
 
 
 

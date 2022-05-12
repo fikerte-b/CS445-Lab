@@ -1,7 +1,17 @@
 Array.prototype.removeDuplicatesAsync = function(){
     let arr = this;
     new Promise(function(resolve, reject){
-      resolve([... new Set(arr)]);
+     // resolve([... new Set(arr)]);
+     arr.sort();
+     let resultArr = [];
+     let temp;
+     for(let i=0; i< arr.length;i++ ){
+         if(arr[i] !== temp){
+             resultArr.push(arr[i]);
+             temp = arr[i];
+         }
+       }
+       resolve(resultArr);
     })
     .then((result)=> console.log(result));
 };
